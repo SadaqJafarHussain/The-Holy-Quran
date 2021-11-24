@@ -1,0 +1,49 @@
+name: al_quran
+description: Flutter App for the holy book of Qur'an.
+
+version: 1.0.2+5
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.3
+  http: ^0.13.4
+  shimmer: ^2.0.0
+  shared_preferences: ^2.0.8
+  provider: ^6.0.1
+  share: ^2.0.4
+  url_launcher: ^6.0.12
+  launch_review: ^3.0.1
+  flutter_overboard: ^3.0.0
+  flutter_svg: ^0.23.0+1
+
+dependency_overrides:
+  # image:
+  # xml:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+# The following section is specific to Flutter.
+flutter:
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/
+
+  fonts:
+    - family: Sogeo
+      fonts:
+        - asset: fonts/sui.ttf
+    #     - asset: fonts/Raleway-Italic.ttf
+    #       style: italic
+    - family: ShareIcon
+      fonts:
+        - asset: fonts/ShareIcon.ttf
