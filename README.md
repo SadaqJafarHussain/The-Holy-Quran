@@ -14,16 +14,6 @@ The data is fetched using API. So, it is not being stored locally. Information a
 
 </div>
 
-## 📁 Download Now
-
-Get it from <a href="https://play.google.com/store/apps/details?id=com.hmz.al_quran">Play Store</a>
-
-## 🎥 Promo Video
-
-Watch the promo video <a href="https://www.youtube.com/watch?v=ghD5H9TF9sU&ab_channel=HappyFluttering">here.</a>
-
-## 💻 Installation steps
-
 It will be best compatible with `Flutter 1.22` version.
 
 Open CMD where you want to clone the project & run the following commands
